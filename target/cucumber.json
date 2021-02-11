@@ -1,0 +1,478 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2705250000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-11T20:52:18.187Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2206175200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "unauthorized user should not be able to login",
+        "description": "",
+        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 640951800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 625514700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters invalid \"user\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"user\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 35
+                }
+              ],
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 38273300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "error message Login and or password are wrong message is displayed",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5268507300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-11T20:52:24.527Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1310427200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 19,
+        "name": "unauthorized user should not be able to login",
+        "description": "",
+        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 679444700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 685273100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters invalid \"username\" and \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"password1\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 35903000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "error message Login and or password are wrong message is displayed",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6419890600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-11T20:52:32.518Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1364565100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 20,
+        "name": "unauthorized user should not be able to login",
+        "description": "",
+        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 661952300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 599165300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters invalid \"\" and \"password\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 31913200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "error message Login and or password are wrong message is displayed",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2881844500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-11T20:52:41.602Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1270637100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "unauthorized user should not be able to login",
+        "description": "",
+        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 658898400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 605717100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters invalid \"username\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 39
+                }
+              ],
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 32913000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "error message Login and or password are wrong message is displayed",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4700063400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-11T20:52:47.055Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1265224100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "unauthorized user should not be able to login",
+        "description": "",
+        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 658328100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 580398800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "the user enters invalid \"\" and \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 31
+                }
+              ],
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33908200,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "error message Login and or password are wrong message is displayed",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "Login function",
+    "description": "",
+    "id": "login-function",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Login.feature",
+    "tags": []
+  }
+]
