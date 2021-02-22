@@ -21,23 +21,21 @@ public class LoginPage {
     @FindBy(css = "input#user_password")
     public WebElement passwordInput;
 
-@FindBy(xpath = "//input[@name='submit']")
-public WebElement loginBtn;
+    @FindBy(xpath = "//input[@name='submit']")
+    public WebElement loginBtn;
 
-@FindBy(css = "button#details-button")
-public WebElement advancedBtn;
+    @FindBy(css = "button#details-button")
+    public WebElement advancedBtn;
 
-@FindBy(css = "a#proceed-link")
-public WebElement proceedToLink;
+    @FindBy(css = "a#proceed-link")
+    public WebElement proceedToLink;
 
-@FindBy(xpath = "//div[@class='alert alert-error']")
-public WebElement alertMessage;
+    @FindBy(xpath = "//div[@class='alert alert-error']")
+    public WebElement alertMessage;
 
     public void login() {
         BrowserUtils.waitFor(3);
         usernameInput.sendKeys(ConfigurationReader.get("username"));
         passwordInput.sendKeys(ConfigurationReader.get("password"));
-
-
     }
 }

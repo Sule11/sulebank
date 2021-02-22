@@ -3,6 +3,102 @@
     "line": 1,
     "elements": [
       {
+        "start_timestamp": "2021-02-22T07:03:01.154Z",
+        "before": [
+          {
+            "result": {
+              "duration": 998700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Add a new payee",
+        "description": "",
+        "id": "add-new-payee-under-pay-bills;add-a-new-payee",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "Add New Payee tab",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 6,
+            "name": "creates\tnew\tpayee using following information",
+            "match": {},
+            "rows": [
+              {
+                "cells": [
+                  "Payee Name",
+                  "The Law Offices of Hyde, Price \u0026 Scharks"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee Address",
+                  "100\tSame st, Anytown, USA, 10001"
+                ]
+              },
+              {
+                "cells": [
+                  "Account",
+                  "Checking"
+                ]
+              },
+              {
+                "cells": [
+                  "Payee Details",
+                  "XYZ\taccount"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "message The new payee The Law\tOffices\tof\tHyde, Price\t\u0026 Scharks was successfully created. should\tbe\tdisplayed",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Add\tnew\tpayee under\tpay\tbills",
+    "description": "",
+    "id": "add-new-payee-under-pay-bills",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/AddNewPayee.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
         "line": 3,
         "name": "",
         "description": "",
@@ -11,8 +107,8 @@
         "steps": [
           {
             "result": {
-              "duration": 2705250000,
-              "status": "passed"
+              "duration": 997400,
+              "status": "skipped"
             },
             "line": 4,
             "name": "the user is on the login page",
@@ -24,12 +120,99 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-11T20:52:18.187Z",
+        "start_timestamp": "2021-02-22T07:03:01.245Z",
         "before": [
           {
             "result": {
-              "duration": 2206175200,
-              "status": "passed"
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Enter with valid credentials",
+        "description": "",
+        "id": "login-function;enter-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1458500,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "the user enters valid username and password",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1619500,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "clicks the login button",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.clicks_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1328200,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "system should login to Account Summary page",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.system_should_login_to_Account_Summary_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 134600,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-02-22T07:03:01.266Z",
+        "before": [
+          {
+            "result": {
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.setUp()"
@@ -43,8 +226,7 @@
         "after": [
           {
             "result": {
-              "duration": 640951800,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -56,8 +238,8 @@
         "steps": [
           {
             "result": {
-              "duration": 625514700,
-              "status": "passed"
+              "duration": 1800800,
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user enters invalid \"user\" and \"password\"",
@@ -78,8 +260,8 @@
           },
           {
             "result": {
-              "duration": 38273300,
-              "status": "passed"
+              "duration": 997500,
+              "status": "skipped"
             },
             "line": 14,
             "name": "error message Login and or password are wrong message is displayed",
@@ -104,8 +286,7 @@
         "steps": [
           {
             "result": {
-              "duration": 5268507300,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "the user is on the login page",
@@ -117,12 +298,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-11T20:52:24.527Z",
+        "start_timestamp": "2021-02-22T07:03:01.281Z",
         "before": [
           {
             "result": {
-              "duration": 1310427200,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.setUp()"
@@ -136,8 +316,7 @@
         "after": [
           {
             "result": {
-              "duration": 679444700,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -149,8 +328,8 @@
         "steps": [
           {
             "result": {
-              "duration": 685273100,
-              "status": "passed"
+              "duration": 1994800,
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user enters invalid \"username\" and \"password1\"",
@@ -171,8 +350,8 @@
           },
           {
             "result": {
-              "duration": 35903000,
-              "status": "passed"
+              "duration": 1000700,
+              "status": "skipped"
             },
             "line": 14,
             "name": "error message Login and or password are wrong message is displayed",
@@ -197,8 +376,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6419890600,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "the user is on the login page",
@@ -210,12 +388,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-11T20:52:32.518Z",
+        "start_timestamp": "2021-02-22T07:03:01.291Z",
         "before": [
           {
             "result": {
-              "duration": 1364565100,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.setUp()"
@@ -229,8 +406,7 @@
         "after": [
           {
             "result": {
-              "duration": 661952300,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -242,8 +418,8 @@
         "steps": [
           {
             "result": {
-              "duration": 599165300,
-              "status": "passed"
+              "duration": 1178100,
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user enters invalid \"\" and \"password\"",
@@ -264,8 +440,8 @@
           },
           {
             "result": {
-              "duration": 31913200,
-              "status": "passed"
+              "duration": 999900,
+              "status": "skipped"
             },
             "line": 14,
             "name": "error message Login and or password are wrong message is displayed",
@@ -290,8 +466,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2881844500,
-              "status": "passed"
+              "status": "skipped"
             },
             "line": 4,
             "name": "the user is on the login page",
@@ -303,12 +478,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-11T20:52:41.602Z",
+        "start_timestamp": "2021-02-22T07:03:01.301Z",
         "before": [
           {
             "result": {
-              "duration": 1270637100,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.setUp()"
@@ -322,8 +496,7 @@
         "after": [
           {
             "result": {
-              "duration": 658898400,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -335,8 +508,8 @@
         "steps": [
           {
             "result": {
-              "duration": 605717100,
-              "status": "passed"
+              "duration": 1994300,
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user enters invalid \"username\" and \"\"",
@@ -357,8 +530,8 @@
           },
           {
             "result": {
-              "duration": 32913000,
-              "status": "passed"
+              "duration": 570300,
+              "status": "skipped"
             },
             "line": 14,
             "name": "error message Login and or password are wrong message is displayed",
@@ -383,8 +556,8 @@
         "steps": [
           {
             "result": {
-              "duration": 4700063400,
-              "status": "passed"
+              "duration": 997500,
+              "status": "skipped"
             },
             "line": 4,
             "name": "the user is on the login page",
@@ -396,12 +569,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-02-11T20:52:47.055Z",
+        "start_timestamp": "2021-02-22T07:03:01.307Z",
         "before": [
           {
             "result": {
-              "duration": 1265224100,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.setUp()"
@@ -415,8 +587,7 @@
         "after": [
           {
             "result": {
-              "duration": 658328100,
-              "status": "passed"
+              "status": "skipped"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -428,8 +599,8 @@
         "steps": [
           {
             "result": {
-              "duration": 580398800,
-              "status": "passed"
+              "duration": 1087500,
+              "status": "skipped"
             },
             "line": 13,
             "name": "the user enters invalid \"\" and \"\"",
@@ -450,8 +621,8 @@
           },
           {
             "result": {
-              "duration": 33908200,
-              "status": "passed"
+              "duration": 999800,
+              "status": "skipped"
             },
             "line": 14,
             "name": "error message Login and or password are wrong message is displayed",
