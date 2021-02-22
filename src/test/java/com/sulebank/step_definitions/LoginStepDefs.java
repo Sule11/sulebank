@@ -10,9 +10,8 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 
 public class LoginStepDefs {
+
     LoginPage loginPage=new LoginPage();
-
-
 
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
@@ -34,19 +33,15 @@ public class LoginStepDefs {
 
     @Then("system should login to Account Summary page")
     public void system_should_login_to_Account_Summary_page() {
-
         BrowserUtils.waitFor(3);
-        Assert.assertTrue(Driver.get().getTitle().equals("Zero - Account Summary") );
+        Assert.assertEquals("Zero - Account Summary",Driver.get().getTitle());
     }
-
-
 
     @When("the user enters invalid {string} and {string}")
     public void the_user_enters_invalid_and(String username, String password) {
         loginPage.usernameInput.sendKeys(username);
         loginPage.passwordInput.sendKeys(password);
         loginPage.loginBtn.click();
-
     }
 
     @Then("error message Login and or password are wrong message is displayed")

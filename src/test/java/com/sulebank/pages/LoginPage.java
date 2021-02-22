@@ -3,14 +3,12 @@ package com.sulebank.pages;
 import com.sulebank.utilities.BrowserUtils;
 import com.sulebank.utilities.ConfigurationReader;
 import com.sulebank.utilities.Driver;
+import org.jsoup.Connection;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class LoginPage {
-    public LoginPage(){
-        PageFactory.initElements(Driver.get(), this);
-    }
+public class LoginPage extends BasePage {
 
     @FindBy(css = "button#signin_button")
     public WebElement signinBtn;

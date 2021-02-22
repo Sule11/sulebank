@@ -18,8 +18,8 @@ import org.junit.runner.RunWith;
         },//tells cucumber to create json file.
         features = "src/test/resources/Features",
         glue="com/sulebank/step_definitions", //locator for step definitions folder because runner also doesnt know where step definitions are
-        dryRun=true
-        //tags="@wip"
+        dryRun=false,
+        tags="@wip"
 )
 public class CukesRunner {
 }

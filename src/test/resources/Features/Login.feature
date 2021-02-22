@@ -8,7 +8,7 @@ Feature:Login function
     And clicks the login button
     Then system should login to Account Summary page
 
-  @wip
+
   Scenario Outline: unauthorized user should not be able to login
     When the user enters invalid "<username>" and "<password>"
     Then error message Login and or password are wrong message is displayed

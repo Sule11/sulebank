@@ -1,318 +1,64 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("file:src/test/resources/Features/AddNewPayee.feature");
 formatter.feature({
-  "name": "Login function",
+  "name": "Add\tnew\tpayee under\tpay\tbills",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "name": "unauthorized user should not be able to login",
+formatter.scenario({
+  "name": "Add a new payee",
   "description": "",
-  "keyword": "Scenario Outline",
+  "keyword": "Scenario",
   "tags": [
     {
       "name": "@wip"
     }
   ]
 });
+formatter.before({
+  "status": "passed"
+});
 formatter.step({
-  "name": "the user enters invalid \"\u003cusername\u003e\" and \"\u003cpassword\u003e\"",
+  "name": "the user logged in to the website successfully",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "com.sulebank.step_definitions.AddNewPayeeStepDefs.the_user_logs_in_to_the_website()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "user navigates to Add New Payee tab",
   "keyword": "When "
 });
-formatter.step({
-  "name": "error message Login and or password are wrong message is displayed",
-  "keyword": "Then "
+formatter.match({
+  "location": "com.sulebank.step_definitions.AddNewPayeeStepDefs.add_New_Payee_tab()"
 });
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "creates\tnew\tpayee using following information",
   "rows": [
-    {
-      "cells": [
-        "username",
-        "password"
-      ]
-    },
-    {
-      "cells": [
-        "user",
-        "password"
-      ]
-    },
-    {
-      "cells": [
-        "username",
-        "password1"
-      ]
-    },
-    {
-      "cells": [
-        "",
-        "password"
-      ]
-    },
-    {
-      "cells": [
-        "username",
-        ""
-      ]
-    },
-    {
-      "cells": [
-        "",
-        ""
-      ]
-    }
-  ]
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user is on the login page",
-  "keyword": "Given "
+    {},
+    {},
+    {},
+    {}
+  ],
+  "keyword": "And "
 });
 formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "unauthorized user should not be able to login",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@wip"
-    }
-  ]
-});
-formatter.step({
-  "name": "the user enters invalid \"user\" and \"password\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
+  "location": "com.sulebank.step_definitions.AddNewPayeeStepDefs.creates_new_payee_using_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "error message Login and or password are wrong message is displayed",
+  "name": "message The new payee The Law Offices of\tHyde, Price\t\u0026 Scharks was successfully created. should\tbe\tdisplayed",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user is on the login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "unauthorized user should not be able to login",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@wip"
-    }
-  ]
-});
-formatter.step({
-  "name": "the user enters invalid \"username\" and \"password1\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "error message Login and or password are wrong message is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user is on the login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "unauthorized user should not be able to login",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@wip"
-    }
-  ]
-});
-formatter.step({
-  "name": "the user enters invalid \"\" and \"password\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "error message Login and or password are wrong message is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user is on the login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "unauthorized user should not be able to login",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@wip"
-    }
-  ]
-});
-formatter.step({
-  "name": "the user enters invalid \"username\" and \"\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "error message Login and or password are wrong message is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.after({
-  "status": "passed"
-});
-formatter.background({
-  "name": "",
-  "description": "",
-  "keyword": "Background"
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "the user is on the login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.scenario({
-  "name": "unauthorized user should not be able to login",
-  "description": "",
-  "keyword": "Scenario Outline",
-  "tags": [
-    {
-      "name": "@wip"
-    }
-  ]
-});
-formatter.step({
-  "name": "the user enters invalid \"\" and \"\"",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
-});
-formatter.result({
-  "status": "passed"
-});
-formatter.step({
-  "name": "error message Login and or password are wrong message is displayed",
-  "keyword": "Then "
-});
-formatter.match({
-  "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
+  "location": "com.sulebank.step_definitions.AddNewPayeeStepDefs.message_The_new_payee_The_Law_Offices_of_Hyde_Price_Scharks_was_successfully_created_should_be_displayed()"
 });
 formatter.result({
   "status": "passed"

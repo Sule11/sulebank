@@ -3,12 +3,12 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-02-22T07:03:01.154Z",
+        "start_timestamp": "2021-02-22T07:59:46.954Z",
         "before": [
           {
             "result": {
-              "duration": 998700,
-              "status": "skipped"
+              "duration": 2271911900,
+              "status": "passed"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.setUp()"
@@ -22,7 +22,8 @@
         "after": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 744184100,
+              "status": "passed"
             },
             "match": {
               "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
@@ -34,20 +35,38 @@
         "steps": [
           {
             "result": {
-              "status": "undefined"
+              "duration": 19201425700,
+              "status": "passed"
             },
             "line": 5,
-            "name": "Add New Payee tab",
-            "match": {},
+            "name": "the user logged in to the website successfully",
+            "match": {
+              "location": "com.sulebank.step_definitions.AddNewPayeeStepDefs.the_user_logs_in_to_the_website()"
+            },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 9720270100,
+              "status": "passed"
             },
             "line": 6,
+            "name": "user navigates to Add New Payee tab",
+            "match": {
+              "location": "com.sulebank.step_definitions.AddNewPayeeStepDefs.add_New_Payee_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 22612781200,
+              "status": "passed"
+            },
+            "line": 7,
             "name": "creates\tnew\tpayee using following information",
-            "match": {},
+            "match": {
+              "location": "com.sulebank.step_definitions.AddNewPayeeStepDefs.creates_new_payee_using_following_information(java.util.Map\u003cjava.lang.String, java.lang.String\u003e)"
+            },
             "rows": [
               {
                 "cells": [
@@ -78,12 +97,20 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 136806600,
+              "status": "passed"
             },
-            "line": 11,
-            "name": "message The new payee The Law\tOffices\tof\tHyde, Price\t\u0026 Scharks was successfully created. should\tbe\tdisplayed",
-            "match": {},
+            "line": 12,
+            "name": "message The new payee The Law Offices of\tHyde, Price\t\u0026 Scharks was successfully created. should\tbe\tdisplayed",
+            "match": {
+              "location": "com.sulebank.step_definitions.AddNewPayeeStepDefs.message_The_new_payee_The_Law_Offices_of_Hyde_Price_Scharks_was_successfully_created_should_be_displayed()"
+            },
             "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
           }
         ]
       }
@@ -93,557 +120,6 @@
     "id": "add-new-payee-under-pay-bills",
     "keyword": "Feature",
     "uri": "file:src/test/resources/Features/AddNewPayee.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 997400,
-              "status": "skipped"
-            },
-            "line": 4,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-22T07:03:01.245Z",
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 6,
-        "name": "Enter with valid credentials",
-        "description": "",
-        "id": "login-function;enter-with-valid-credentials",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 1458500,
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "the user enters valid username and password",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_valid_username_and_password()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1619500,
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "clicks the login button",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.clicks_the_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1328200,
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "system should login to Account Summary page",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.system_should_login_to_Account_Summary_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 134600,
-              "status": "skipped"
-            },
-            "line": 4,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-22T07:03:01.266Z",
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "unauthorized user should not be able to login",
-        "description": "",
-        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;2",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1800800,
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "the user enters invalid \"user\" and \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"user\"",
-                  "offset": 24
-                },
-                {
-                  "val": "\"password\"",
-                  "offset": 35
-                }
-              ],
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 997500,
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "error message Login and or password are wrong message is displayed",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 4,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-22T07:03:01.281Z",
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 19,
-        "name": "unauthorized user should not be able to login",
-        "description": "",
-        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;3",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1994800,
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "the user enters invalid \"username\" and \"password1\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"username\"",
-                  "offset": 24
-                },
-                {
-                  "val": "\"password1\"",
-                  "offset": 39
-                }
-              ],
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1000700,
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "error message Login and or password are wrong message is displayed",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 4,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-22T07:03:01.291Z",
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 20,
-        "name": "unauthorized user should not be able to login",
-        "description": "",
-        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;4",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1178100,
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "the user enters invalid \"\" and \"password\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 24
-                },
-                {
-                  "val": "\"password\"",
-                  "offset": 31
-                }
-              ],
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 999900,
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "error message Login and or password are wrong message is displayed",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "line": 4,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-22T07:03:01.301Z",
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 21,
-        "name": "unauthorized user should not be able to login",
-        "description": "",
-        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;5",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1994300,
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "the user enters invalid \"username\" and \"\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"username\"",
-                  "offset": 24
-                },
-                {
-                  "val": "\"\"",
-                  "offset": 39
-                }
-              ],
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 570300,
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "error message Login and or password are wrong message is displayed",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      },
-      {
-        "line": 3,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 997500,
-              "status": "skipped"
-            },
-            "line": 4,
-            "name": "the user is on the login page",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-02-22T07:03:01.307Z",
-        "before": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.setUp()"
-            }
-          }
-        ],
-        "line": 22,
-        "name": "unauthorized user should not be able to login",
-        "description": "",
-        "id": "login-function;unauthorized-user-should-not-be-able-to-login;;6",
-        "after": [
-          {
-            "result": {
-              "status": "skipped"
-            },
-            "match": {
-              "location": "com.sulebank.step_definitions.Hooks.tearDown(io.cucumber.java.Scenario)"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1087500,
-              "status": "skipped"
-            },
-            "line": 13,
-            "name": "the user enters invalid \"\" and \"\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\"\"",
-                  "offset": 24
-                },
-                {
-                  "val": "\"\"",
-                  "offset": 31
-                }
-              ],
-              "location": "com.sulebank.step_definitions.LoginStepDefs.the_user_enters_invalid_and(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 999800,
-              "status": "skipped"
-            },
-            "line": 14,
-            "name": "error message Login and or password are wrong message is displayed",
-            "match": {
-              "location": "com.sulebank.step_definitions.LoginStepDefs.error_message_Login_and_or_password_are_wrong_message_is_displayed()"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@wip"
-          }
-        ]
-      }
-    ],
-    "name": "Login function",
-    "description": "",
-    "id": "login-function",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/Login.feature",
     "tags": []
   }
 ]
